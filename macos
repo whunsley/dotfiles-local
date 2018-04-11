@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# close system preferences to keep it from overriding stuff
+osascript -e 'tell application "System Preferences" to quit'
+
+# disable keyboard press and hold popup
+defaults write -g ApplePressAndHoldEnabled -bool false
+
+# fast keyboard repeat rate
+defaults write -g KeyRepeat -int 2
+defaults write -g InitialKeyRepeat -int 15
+
+# show all file extensions
+defaults write -g AppleShowAllExtensions -bool true
+
+# disable warning when changing file extension
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false

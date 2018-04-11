@@ -1,0 +1,5 @@
+# Add Homebrew `/usr/local/bin` and User `~/bin` to the `$PATH`
+PATH=~/bin:$PATH
+PATH=/usr/local/sbin:/usr/local/bin:$PATH
+PATH=/usr/local/opt/coreutils/libexec/gnubin:$PATH
+PATH=/usr/local/opt/python/libexec/bin:$PATH
