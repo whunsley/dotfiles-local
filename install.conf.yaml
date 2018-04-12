@@ -7,6 +7,7 @@
 
 - link:
     ~/.bashrc_local_after:
+    ~/.gitconfig_local:
     ~/.shell_local_after:
     ~/.shell_local_before:
 
