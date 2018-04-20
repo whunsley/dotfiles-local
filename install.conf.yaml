@@ -8,3 +8,4 @@
 - link:
     ~/.bash_logout:
     ~/.bashrc_local_after:
+    ~/.gitconfig_local:
